@@ -1,0 +1,441 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+     height: 300rem; 
+}  */
+/* i have given style to my navbar here */
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    /* background: #f8ead6; */
+    height: 48px;
+    width: 100vw;
+    align-items: center;
+    background: #ffffff;
+    box-shadow: 2px 2px 12px rgba(0,0 ,0,0.2);
+    /* border: 4px solid grey;
+    border-right: none;
+    border-left: none;
+    border-top: none; */
+    position: fixed;
+    top:0;
+    left:0;
+    z-index:99;
+}
+.container .logo h2{
+    color: black;
+    font-family: 'Langar', cursive;
+    font-size: 1.72rem;
+    letter-spacing: 3px;
+    
+    
+
+}
+.container .logo span{
+    color: aqua;
+
+}
+
+.navitems ul li{
+    list-style: none;
+    margin: 12px 4px;
+    
+}
+.navitems ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    font-weight: 520;
+    padding: 0 23px;
+    transition: 0.5s ease-in-out;
+    
+}
+.navitems ul li a:hover{
+    color: aqua;
+}
+
+/* i have given style to home section here */
+
+
+.home::before{
+    content: "";
+    position: absolute;
+    background: url('/images/bg.png');
+    height: 100vh;
+    width: 98.7vw;
+    z-index:-1;
+    opacity: 0.87;
+
+}
+.home .container .home_content h1{
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 500;
+    font-size: 4rem;
+}
+.home .container .home_content p{
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 500;
+    color: grey;
+    font-size: 1.77rem;
+    
+}
+.home .container .home_content button{
+    border-radius: 12px;
+    margin-top: 23px;
+    outline: none;
+    cursor: pointer;
+}
+.home .container .home_content h3{
+    font-family: sans-serif;
+    font-weight: 500;
+    color: rgb(17, 16, 16);
+    font-size: 1.67rem;
+}
+.home .container .home_content .btn1{
+    color: black;
+    background: transparent;
+    border: 2px solid black;
+    padding: 9px 23px;
+    box-shadow: 13px 12px 12px rgb(156, 156, 156);
+    font-size: 1rem;
+    font-family: 'Perrmanent Marker', cursive;
+    transition: 0.5s ease-out;
+    /* margin: 1rem 1rem; */
+
+}
+.home .container .home_content .btn2:hover{
+    color: black;
+    background: transparent;
+    border: 2px solid black;
+   
+
+}
+.home .container .home_content .btn2{
+    color: grey;
+    background: black;
+    border: 2px solid black;
+    padding: 9px 23px;
+    box-shadow: 13px 12px 12px rgb(156, 156, 156);
+    font-size: 1rem;
+    font-family: 'Perrmanent Marker', cursive;
+    /* margin-right: -34px; */
+    margin-left: 34px;
+    transition: 0.5s ease-out;
+
+}
+.home .container .home_content .btn1:hover{
+    color: grey;
+    background: black;
+    border: 2px solid black;
+    
+
+}
+.home .container .home_content{
+    /* margin-right: 23px */
+    margin-left: 154px;
+}
+.home .container .man_img img{
+    height: 545px;
+    /* position: fixed; */
+    position: relative;
+    margin-right: 134px;
+}
+ 
+/* i have added style to the social icons  */
+
+.social-icons{
+    position: absolute;
+    top: 316px;
+    right: 0;
+    height: 345px;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    position: fixed;
+}
+.social-icons i{
+    /* box-shadow: 3px 6px 5px grey; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    background: transparent;
+    font-size: 1.78rem;
+    border: 2px solid grey;
+    /* border-radius: 3px; */
+    padding: 7px 7px;
+    transition:0.5s ease-in-out;
+    border-radius: 50%;
+
+    
+}
+.social-icons a{
+    text-decoration: none;
+}
+.social-icons i:hover{
+   background: black;
+   color: grey;
+    
+}
+/* i have given style to about us section here */
+
+.about .about-img img{
+    height: 234px;
+    
+
+}
+.about .about-content h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+
+}
+.about .about-content h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.23rem;
+    font-weight: 400;
+}
+.about .about-content p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+}
+.about .about-content h6{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight: 200;
+    color: grey;
+}
+.about .about-content .ab-btn1,.ab-btn2{
+    color:white;
+    background: black;
+    padding: 8px 33px ;
+    outline: none;
+    border: 1px solid black;
+    font-size:1rem;
+    font-family:sans-serif;
+    font-weight: 300;
+    margin-top: 12px;
+    cursor: pointer;
+
+}.about .about-content .ab-btn2{
+    margin-left: 23px;
+}
+.about .about-content{
+    margin: 0px 93px;
+}
+.about{
+    display:flex;
+    justify-content: center;
+}
+.about .container{
+    margin-left: 34px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:0px 34px;
+    height:323px;
+    width:80%;
+    background: white;
+    /* border: 1px solid black; */
+    box-shadow: -3px -3px 12px grey;
+    box-shadow: 3px 3px 12px grey;
+}
+
+/* i have given style to the services section here */
+.services {
+    position: relative;
+    margin-top: 9rem;
+    height: 120vh;
+}
+.services .services-content h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight:300;
+    letter-spacing: 1px;
+    color: black;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.services .services-content h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 200;
+    color:rgba(0,0 ,0,0.83);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.services .services-content p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1rem;
+    font-weight:200;
+    color:grey;
+    text-align: center;
+}
+
+.boxes .box{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 395px;
+    box-shadow:4px 4px 12px grey;
+    background:black;
+    padding: 56px 34px;
+    color:white;
+    margin:34px 34px;
+    transition:0.5s ease-out;
+
+}
+
+.boxes .box h4,h3,p{
+    text-align: center;
+    font-family:sans-serif;
+}
+.boxes .box h4{
+    font-family:sans-serif;
+    font-size: 1.76rem;
+    font-weight:500;
+    margin-top:23px;
+}
+.boxes .box h3{
+    width:54px;
+    font-family:sans-serif;
+    font-size: 2rem;
+    font-weight:800;
+    border-radius:50%;
+    background:white;
+    color:black;
+    padding:2px 3px;
+    margin: 2px 108px;
+}
+.boxes .box button{
+    padding: 3px 15px;
+    background-color: white;
+    color:black;
+    width: 154px;
+    margin:12px 34px;
+    font-size: 1rem;
+    font-family:sans-serif;
+    font-weight:700;
+    outline:none;
+    border:2px solid black;
+    border-radius:8px;
+    margin-top:23px;
+    margin-left:47px;
+}
+.boxes .box:hover{
+    /* transform:rotate(50deg); */
+    transform:translateY(-48px);
+    /* transform:rotate(360deg); */
+
+}
+
+/* i have given style to the contact us section here */
+.contact{
+    height:5vh;
+    flex-direction: column;
+    margin-top: 74px;
+    
+}
+.contact::before{
+    /* flex-direction: column; */
+    content: "";
+    position: absolute;
+    height: 50vh;
+    width: 100%;
+    background: url('/images/project\ in\ your\ mind.png');
+    z-index: -1;
+    opacity:0.87;
+
+
+}
+.contact h1{
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    font-size:2.56rem;
+    margin-bottom:34px;
+
+}
+.contact button{
+    margin-top:64px;
+    width:133px;
+    padding:12px 23px;
+    margin: auto;
+    font-size: 1rem;
+    font-family:sans-serif;
+    background-color: white;
+    color: black;
+    outline:none;
+    border: 2px solid rgb(44, 44, 44);
+    font-weight:500;
+    cursor:pointer;
+
+
+    
+}
+.contact button:hover{
+    background-color: whitesmoke;
+
+}
+
+/* i have given style to footer section here */
+
+
+footer{
+    margin-top: 14rem;
+    background-color: rgb(241, 241, 241);
+    height: 250px;
+}
+footer h3{
+    font-family: 'Langar', cursive;
+    font-size: 2rem;
+    font-weight: 300;
+    /* margin-top: 63px; */
+}
+footer p{
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top: 23px;
+}
+footer i{
+    /* height:90px; */
+    color:black;
+    background-color: grey;
+    padding: 18px;
+    margin-top: 33px;
+    /* margin-left: 34px; */
+    border-radius: 50%;
+    transition:0.5s ease-out;
+    
+}
+footer i:hover{
+    color:grey;
+    background-color: black;
+    cursor: pointer;
+    
+    
+}
+.foot-icons{
+    margin-left: 42%;
+}
+
+/* i have tried to make it responsive */
+
+@media(Max-width:1400px){
+    .services{
+        margin-top:190px;
+    }
+
+}
+@media(Max-width:720px){
+    .about{
+        margin-top: 145px;
+    }
+}
